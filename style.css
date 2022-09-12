@@ -1,0 +1,173 @@
+
+/* navbar */
+
+.navbar {
+    background-color: white;
+}
+
+.navbar li a {
+    color:darkorange;
+    font-size:1.2rem;
+    letter-spacing: 1px;
+    margin: 0 10px;
+}
+
+.navbar li a:hover {
+    color:orange;
+    font-size:1.2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+    color:darkorange ;
+    font-weight: bold
+}
+
+/* added this to change the hover color */
+.navbar-brand:hover {
+    font-size: 1.3rem;
+    color:darkorange ;
+}
+
+
+/* jumbotron styling */
+#headJumbo img {
+    height: 200px;
+    width: auto;
+}
+
+#headJumbo {
+    color: white;
+}
+#headJumbo h1 {
+    font-size: 4rem;
+}
+#headJumbo h3 {
+    font-size: 2rem
+}
+.jumbotron {
+    background-color:rgb(3, 54, 3);
+    box-shadow: 5px 5px 10px black;
+}
+
+/* Personalstatement */
+#Personalstatement{
+    margin-top: 80px;
+}
+
+#Skills {
+    margin-top: 80px;
+}
+#Skills svg.svg-inline--fa { 
+        font-size: 3rem;
+        margin : auto; 
+        color: rgb(3, 54, 3);
+        margin: 7px;
+}
+
+#Skills svg.svg-inline--fa:hover { 
+    color: rgb(48, 34, 7)!important;
+    font-size: 6rem;
+}
+
+/* project showcase */
+
+#showcase {
+    margin-top: 80px;
+}
+
+.cap1 h4 {
+    color:rgb(160, 45, 120);
+}
+
+.cap1 p{
+    color:rgb(139, 19, 137);
+    font-size: 1.1rem;
+}
+
+.carousel-indicators li {
+    display: none;
+}
+
+#myprojects img{
+    width: 300%;
+    height: 500px;
+    padding: 30px 0;
+}
+
+.cap1 {
+    margin-top: 15px;
+}
+
+/* Work History */
+#workhistory {
+    margin-top: 80px;
+    text-align: left;
+}
+
+#workhistory h1 {
+    font-size: 2rem;
+    text-decoration: underline rgb(3, 54, 3);
+}
+
+#workhistory h3 {
+    font-size: 1.2rem;
+    text-decoration: underline rgb(3, 54, 3); 
+}
+
+#workhistory h4 {
+    font-size: 1rem;
+    font-style: italic;
+    color:black;
+}
+
+#workhistory h6 {
+    font: 0.8rem;
+    font-weight: 200;
+    font-style:normal;
+}
+
+/* cards-qualifications */
+
+#qualifications .card{
+    margin-top:1px;
+    box-shadow:2px 2px 2px  black
+}
+#qualifications{
+    margin-top: 50px;
+}
+
+.card-header{
+    background-color: rgb(48, 34, 7);
+    color:beige;
+    font-size: 1.3rem;
+}
+
+/*footer */
+
+#footer {
+    background-color:rgb(64, 7, 99);
+    margin-top: 100px;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+/*Contact */
+#contact {
+    color: white;
+}
+#contact svg.svg-inline--fa { 
+        font-size: 1.5rem;
+        margin : auto; 
+        color: white;
+        margin: 1px;
+        margin-top: 10px;
+}
+
+#contact svg.svg-inline--fa:hover { 
+    color: rgb(48, 34, 7)!important;
+    font-size: 1.5rem;
+}
