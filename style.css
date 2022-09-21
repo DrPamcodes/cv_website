@@ -3,6 +3,7 @@
 
 .navbar {
     background-color:rgb(73, 44, 8);
+    margin-bottom: 20px ;
 }
 
 .navbar li a {
@@ -50,7 +51,7 @@
 }
 .jumbotron {
     background-color:rgb(3, 54, 3);
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px 10px black;
 }
 
 /* Personalstatement */
@@ -151,7 +152,8 @@
 #footer {
     background-color:rgb(64, 7, 99);
     margin-top: 100px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px 5px black;
+    margin-bottom: 10px;
 
 }
 
